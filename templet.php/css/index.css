@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+body {
+    overflow-x:hidden;
+    line-height: 1.5; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.arial-bold-white14px {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.arial-bold-white14px:hover {
+    color: black;
+}
+.arial-white12px {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.arial-white12px:hover {
+    color: black;
+}
+.fa {
+    color: white;
+}
+.fa:hover {
+    color: black;
+}
+.arial-white12px {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+section {
+    position: relative;
+    margin: 10px;
+}
+.section .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.section .column img {
+    border-radius: 20px;
+    margin: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.shop {
+    float: right;
+    width: 90%;
+    display: inline;
+}
+.shop .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.shop .column img {
+    border: #1d8fc4;
+    border-radius: 20px;
+    border-width: 5px;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.footer .container{
+	max-width: 100%;
+	margin: auto;
+}
+.footer .row{
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer ul{
+	list-style: none;
+}
+.footer{
+	background-color: #1d8fc4;
+    padding: 70px 0;
+}
+.footer .footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer .footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: black;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer .footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer .footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer .footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer .footer-col .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+@media(max-width: 767px){
+.footer .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer .footer-col{
+    width: 100%;
+}
+}
+
+
+@media screen and (min-width: 1050px) {    
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px;  
+    display: inline-block;          
+    background-color: #1d8fc4;
+    white-space: nowrap;            
+    overflow: hidden;               
+}
+.header .logo {
+    float: left;                    
+    height: 100px;
+    width: 250px;                   
+    background: transparent no-repeat center;
+    background-size: cover;
+    background-color: white;
+}
+.header .nav {
+    width: 800px;
+    height: 100%;
+    float: right;
+    display: inline-block;          
+    background-color: #1d8fc4; 
+    list-style-type: none;
+    margin: 0 auto; 
+    padding: 0;
+}
+.header .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;             
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.hover .fa-cart {
+    font-size: 20px;
+}
+.mobile-container {
+    display: none;
+}
+.section .column {
+    -ms-flex: 30%;
+    flex: 30%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+.shop .column {
+    -ms-flex: 30%;
+    flex: 30%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+}
+@media screen and (min-width: 738px) and (max-width: 1049px) {    
+.header {
+    position: relative;
+    width: 100%;
+    height: 75px;  
+    display: inline-block;          
+    background-color: #1d8fc4;
+    white-space: nowrap;            
+    overflow: hidden;               
+}
+.header .logo {
+    float: left;                    
+    height: 75px;                   
+    background: transparent no-repeat center;
+    background-size: cover;
+    background-color: white;
+}
+.header .nav {
+    width: 550px;
+    height: 100%;
+    display: inline-block;
+    float: right;          
+    background-color: #1d8fc4; 
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+.header .nav li {
+    display: inline-block;
+    font-size: 10px;
+    padding-left: 10px;             
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header .arial-bold-white14px {
+    font-size: 12px;
+}
+.header .fa-cart {
+    font-size: 20px;
+}
+.mobile-container {
+    display: none;
+}
+.section .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+.shop .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+}
+@media screen and (min-width: 482px) and (max-width: 737px) { 
+.mobile-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    background-color: transparent;
+    height: 70px;
+    border-radius: 10px;
+}
+.mobile-container .mobile-logo {    
+    float: left;               
+    height: 60px;                   
+    background: transparent no-repeat center;
+    background-size: cover;
+    background-color: transparent;
+    margin-top:-4px;
+    margin-left: -10px;
+    padding-bottom: 8px;
+}
+.mobile-container .topnav {
+    overflow: hidden;
+    background-color: #1d8fc4;
+    position: relative;
+}
+.mobile-container .topnav #myLinks {
+    display: none;
+}
+.mobile-container .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.mobile-container .topnav a.icon {
+    background: #1d8fc4;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.mobile-container .topnav a:hover {
+    color: black;
+}
+.mobile-container .active {
+    background-color: #1d8fc4;
+    color: #9d9d9d;
+}
+.mobile-container .fa-bars {
+    font-size: 50px;
+}
+.mobile-container .fa-cart {
+    font-size: 40px;
+}
+.header {
+    display: none;
+}
+.section .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+.shop .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 481px) { 
+    .mobile-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        background-color: transparent;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .mobile-container .mobile-logo {    
+        float: left;               
+        height: 40px;                   
+        background: transparent no-repeat center;
+        background-size: cover;
+        background-color: transparent;
+        margin-top:-4px;
+        margin-left: -10px;
+        padding-bottom: 8px;
+    }
+    .mobile-container .topnav {
+        overflow: hidden;
+        background-color: #1d8fc4;
+        position: relative;
+    }
+    .mobile-container .topnav #myLinks {
+        display: none;
+    }
+    .mobile-container .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .mobile-container .topnav a.icon {
+        background: #1d8fc4;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .mobile-container .topnav a:hover {
+        color: black;
+    }
+    .mobile-container .active {
+        background-color: #1d8fc4;
+        color: #9d9d9d;
+    }
+    .mobile-container .fa-bars {
+        font-size: 30px;
+    }
+    .mobile-container .fa-cart {
+        font-size: 40px;
+    }
+    .header {
+        display: none;
+    }
+    .section .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .shop .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    }
