@@ -1,0 +1,792 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    text-decoration: none; 
+    box-sizing: border-box;
+}
+body {
+    overflow-x:hidden;
+    line-height: 1.5; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arial-bold-white {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 40px;
+}
+.arial-bold-white14px {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.arial-bold-white14px:hover {
+    color: black;
+}
+.arial-white12px {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.arial-white12px:hover {
+    color: black;
+}
+.description {
+    display: inline;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 27%;
+}
+.fa {
+    color: white;
+}
+.fa:hover {
+    color: black;
+}
+section {
+    position: relative;
+    margin: 10px;
+}
+.section .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.section .column img {
+    border-radius: 20px;
+    margin: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.shop .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.shop .column img {
+    border-radius: 20px;
+    margin: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.lego-header .lego-banner {
+    max-width: 100%;
+    height: auto;
+    left: auto;
+    right: auto;
+    position: relative;
+    border-width: 5px;
+    border-color: white;
+}
+.lego {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.lego .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.lego .column img {
+    border-radius: 20px;
+    margin: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+.trafalgar-square .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trafalgar-square .column img {
+    border-radius: 20px;
+    margin: -10px;
+    vertical-align: middle;
+    width: 100%;
+}
+.trafalgar-square .stock {
+    color: green;
+    font-size: normal;
+}
+.shop .puzzle:hover{
+    position: relative;
+}
+.shop .ptcg:hover{
+    position: relative;
+}
+.shop .build:hover{
+    position: relative;
+}
+.shop .bg:hover{
+    position: relative;
+}
+.shop .gc:hover{
+    position: relative;
+}
+.shop .hg:hover{
+    position: relative;
+}
+.shop .mtg:hover{
+    position: relative;
+}
+.shop .snt:hover{
+    position: relative;
+}
+.shop .outdoors:hover{
+    position: relative;
+}
+.shop .anc:hover{
+    position: relative;
+}
+.shop .description {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: -5px;
+    border-radius: 20px;
+    background: rgba(29,143,196, 0.9);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+.shop .puzzle:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .ptcg:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .build:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .bg:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .gc:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .hg:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .mtg:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .snt:hover .description{
+    visibility: visible;
+    opacity: 1;
+}
+.shop .outdoors:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.shop .anc:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .puzzle:hover {
+    position: relative;
+}
+.lego .ptcg:hover {
+    position: relative;
+}
+.lego .build:hover {
+    position: relative;
+}
+.lego .bg:hover {
+    position: relative;
+}
+.lego .gc:hover {
+    position: relative;
+}
+.lego .hg:hover {
+    position: relative;
+}
+.lego .mtg:hover {
+    position: relative;
+}
+.lego .snt:hover {
+    position: relative;
+}
+.lego .outdoors:hover {
+    position: relative;
+}
+.lego .anc:hover {
+    position: relative;
+}
+.lego .description {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: -5px;
+    border-radius: 20px;
+    background: rgba(29,143,196, 0.9);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+.lego .puzzle:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .ptcg:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .build:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .bg:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .gc:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .hg:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .mtg:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .snt:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .outdoors:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.lego .anc:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+.trafalgar-square {
+    position: relative;
+}
+.trafalgar-square .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+}
+/* Slide Show */
+
+.w3-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+.w3-display-container {
+    position: relative;
+}
+.w3-center {
+    display: inline-block;
+    width: auto;
+}
+.w3-container {
+    padding:0.01em 10px;
+}
+.w3-section {
+    margin-top:16px!important;
+    margin-bottom:16px!important;
+}
+.w3-large {
+    font-size:20px!important;
+}
+.w3-text-white {
+    color:#1d8fc4!important;
+}
+.w3-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+}
+
+.w3-left {
+    float:left!important;
+    
+}
+.w3-right {
+    float:right!important;
+    margin-right: 20px;
+}
+
+.w3-hover-text-khaki:hover {
+    color:#000!important;
+}
+
+.w3-badge {
+    background-color: #1d8fc4;
+    color: #1d8fc4;
+    display: inline;
+    padding-left: 11px;
+    padding-right: 11px;
+    text-align: center;
+    border-radius: 50%;
+}
+.w3-border {
+    border:1px solid #1d8fc4!important;
+}
+.w3-transparent {
+    background-color:transparent!important;
+}
+.w3-hover-white:hover {
+    color:#1d8fc4!important;
+    background-color:#1d8fc4!important;
+}
+
+/* End Slide Show */
+/* Contact */
+.contact-img {
+    background-image: url("http://aleknu2.dreamhosters.com/index-2/images/toys@1x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    border: none;
+    height: 800px;
+    opacity: .5;
+    background-size: cover;
+    z-index: -100;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-section .section {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+}
+.contact-section h2 {
+    font-size: 24px;
+}
+.contact-section .section .row,
+.contact-section .section .row .column {
+    max-width: 100%;
+}
+.contact-section h2, 
+.contact-section .contact-us {
+    z-index: 5;
+    opacity: 1;
+}
+.contact-us {
+    width: 400px;
+    margin: auto;
+}
+.contact-us .background {
+    margin: auto 0;
+    background-color: #1d8fc4;
+    background-size: 400px 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.contact-us a:link, a:visited {
+    color: white;
+}
+.contact-us a:hover {
+    color: black;
+}
+/* End Contact */
+.calendar {
+    width: 880px;
+    margin: 0 auto;
+}
+.calendar .background {
+    margin: auto 0;
+    background-color: #1d8fc4;
+    background-size: 400px 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.calendar a:link, a:visited {
+    color: white;
+}
+.calendar a:hover {
+    color: black;
+}
+
+.tutors-img {
+    background-image: url("http://aleknu2.dreamhosters.com/index-2/images/science-nature-tech.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    border: none;
+    height: 800px;
+    opacity: .5;
+    background-size: cover;
+    z-index: -100;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.tutors {
+    width: 880px;
+    margin: 0 auto;
+}
+.tutors .background {
+    margin: auto 0;
+    background-color: #1d8fc4;
+    background-size: 400px 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.tutors a:link, a:visited {
+    color: white;
+}
+.tutors a:hover {
+    color: black;
+}
+
+
+.footer .container{
+	max-width: 100%;
+	margin: auto;
+}
+.footer .row{
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+    margin-left: 10px;
+}
+.footer ul{
+	list-style: none;
+}
+.footer{
+	background-color: #1d8fc4;
+    padding: 70px 0;
+}
+.footer .footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer .footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer .footer-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: black;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer .footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer .footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer .footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer .footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer .footer-col .social-links a:hover{
+	color: black;
+	background-color: #ffffff;
+}
+@media screen and (min-width: 2030px){
+    .lego .column {
+        -ms-flex: 20%;
+        flex: 20%;
+        max-width: 20%;
+        margin: 50px;
+    }
+}
+@media screen and (min-width: 1050px) and (max-width: 2029px){
+    .lego {
+        margin-left: 10%;
+    }
+    .lego .column {
+        -ms-flex: 20%;
+        flex: 20%;
+        max-width: 20%;
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 738px) and (max-width: 1049px) {
+    .lego {
+        margin-left: 5%;
+    }
+    .lego .column {
+        -ms-flex: 20%;
+        flex: 20%;
+        max-width: 20%;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 767px){
+.footer .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 574px){
+.footer .footer-col{
+    width: 100%;
+}
+}
+@media screen and (min-width: 1050px) {    
+.header {
+    position: relative;
+    width: 100%;
+    height: 100px;  
+    display: inline-block;          
+    background-color: #1d8fc4;
+    white-space: nowrap;            
+    overflow: hidden;               
+}
+.header .logo {
+    float: left;                    
+    height: 100px;
+    width: 250px;                   
+    background: transparent no-repeat center;
+    background-size: cover;
+    background-color: white;
+}
+.header .nav {
+    width: 800px;
+    height: 100%;
+    float: right;
+    display: inline-block;          
+    background-color: #1d8fc4; 
+    list-style-type: none;
+    margin: 0 auto; 
+    padding: 0;
+}
+.header .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;             
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.hover .fa-cart {
+    font-size: 20px;
+}
+.mobile-container {
+    display: none;
+}
+.section .column {
+    -ms-flex: 30%;
+    flex: 30%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+.shop .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+}
+@media screen and (min-width: 738px) and (max-width: 1049px) {    
+.header {
+    position: relative;
+    width: 100%;
+    height: 75px;  
+    display: inline-block;          
+    background-color: #1d8fc4;
+    white-space: nowrap;            
+    overflow: hidden;               
+}
+.header .logo {
+    float: left;                    
+    height: 75px;                   
+    background: transparent no-repeat center;
+    background-size: cover;
+    background-color: white;
+}
+.header .nav {
+    width: 550px;
+    height: 100%;
+    display: inline-block;
+    float: right;          
+    background-color: #1d8fc4; 
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+.header .nav li {
+    display: inline-block;
+    font-size: 10px;
+    padding-left: 10px;             
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.header .arial-bold-white14px {
+    font-size: 12px;
+}
+.header .fa-cart {
+    font-size: 20px;
+}
+.mobile-container {
+    display: none;
+}
+.section .column {
+    -ms-flex: 33%;
+    flex: 33%;
+    max-width: 33%;
+    padding: 5px;
+}
+.shop .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 5px;
+}
+}
+@media screen and (max-width: 737px) { 
+    .mobile-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        background-color: transparent;
+        height: 50px;
+        border-radius: 10px;
+        z-index: 1000;
+    }
+    .mobile-container .mobile-logo {    
+        float: left;               
+        height: 40px;                   
+        background: transparent no-repeat center;
+        background-size: cover;
+        background-color: transparent;
+        margin-top:-4px;
+        margin-left: -10px;
+        padding-bottom: 8px;
+    }
+    .mobile-container .topnav {
+        overflow: hidden;
+        background-color: #1d8fc4;
+        position: relative;
+    }
+    .mobile-container .topnav #myLinks {
+        display: none;
+    }
+    .mobile-container .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .mobile-container .topnav a.icon {
+        background: #1d8fc4;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .mobile-container .topnav a:hover {
+        color: black;
+    }
+    .mobile-container .active {
+        background-color: #1d8fc4;
+        color: #9d9d9d;
+    }
+    .mobile-container .fa-bars {
+        font-size: 30px;
+    }
+    .mobile-container .fa-cart {
+        font-size: 40px;
+    }
+    .header {
+        display: none;
+    }
+    .section .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .shop .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .lego .column {
+        -ms-flex: 65%;
+        flex: 65%;
+        max-width: 65%;
+    }
+    .lego .row {
+        margin-left: 30%;
+    }
+    }
